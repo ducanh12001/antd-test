@@ -5,6 +5,9 @@ import './App.less';
 import jaJP from 'antd/es/locale/ja_JP';
 import enUS from 'antd/es/locale/en_US';
 import { useTheme } from './theme/use-theme';
+import moment from 'moment';
+import 'moment/locale/ja';
+moment.locale('en');
 
 const { Sider, Header, Content } = Layout;
 
